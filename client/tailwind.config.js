@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fontY: '"Ysabeau", sans-serif'
+      },
       colors: {
         'primary': '#fc037f',
         'primaryhover': '#'
