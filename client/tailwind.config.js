@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        fontY: '"Ysabeau", sans-serif'
+        fontY: '"Ysabeau", sans-serif',
+        rubik: "'Rubik', sans-serif"
       },
       colors: {
         'primary': '#fc037f',

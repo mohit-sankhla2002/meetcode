@@ -1,132 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82493c85-6735-43dd-a214-623dfb851bdb" name="Changes" comment="added router and layout (singup and login pages)">
-      <change afterPath="$PROJECT_DIR$/server/controllers/getUserDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/problem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/updateUserDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61416358-3ccd-444b-9831-ffa22014b0cb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/blogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/submission.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/submission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/submission.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/submission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/server/models/User.js" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2PiiqVJEy3TyRjem1xYGKUkT2Vz" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2Pyk63SntLVSUgkMPrEDIMxLDNA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JavaScript&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.npm start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2">
-        <option name="LaunchBrowser.Before.Run" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82493c85-6735-43dd-a214-623dfb851bdb" name="Changes" comment="" />
-      <created>1683946493590</created>
+      <changelist id="61416358-3ccd-444b-9831-ffa22014b0cb" name="Changes" comment="" />
+      <created>1684436531100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683946493590</updated>
-      <workItem from="1683946494618" duration="7594000" />
-      <workItem from="1683954151808" duration="3141000" />
-      <workItem from="1683959005118" duration="5000" />
-      <workItem from="1683984072506" duration="4373000" />
-      <workItem from="1684063771505" duration="5211000" />
-      <workItem from="1684086617246" duration="2823000" />
-      <workItem from="1684090094936" duration="1185000" />
-      <workItem from="1684122030280" duration="45000" />
-      <workItem from="1684157234905" duration="2939000" />
-      <workItem from="1684212354764" duration="6458000" />
-      <workItem from="1684242559558" duration="617000" />
-      <workItem from="1684243184268" duration="2816000" />
-      <workItem from="1684344942238" duration="1688000" />
+      <updated>1684436531100</updated>
+      <workItem from="1684436532335" duration="18000" />
     </task>
-    <task id="LOCAL-00001" summary="added router and layout (singup and login pages)">
-      <created>1683987933105</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683987933105</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="added router and layout (singup and login pages)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added router and layout (singup and login pages)" />
   </component>
 </project>

@@ -1,3 +1,8 @@
 const router = require('express').Router();
-const {createASubmission} = require('../controllers/submission')
-router.get('/:id', createASubmission);
+
+const {createASubmission, getSubmissionsByUser} = require('../controllers/submission')
+
+router.post('/:id', createASubmission);
+router.get('/', getSubmissionsByUser)
+
+module.exports = router;

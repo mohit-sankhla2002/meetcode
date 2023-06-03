@@ -12,6 +12,7 @@ app.use(morgan('tiny'));
 const authRouter = require('./routes/auth');
 const problemRouter = require('./routes/problem');
 const userRouter = require('./routes/user');
+const submissionRouter = require('./routes/submission');
 /*
     GET
     getUserDetails('/user/:id);
@@ -28,6 +29,7 @@ const userRouter = require('./routes/user');
 app.use('/auth', authRouter);
 app.use('/problems', problemRouter);
 app.use('/user', userRouter);
+app.use('/submission', submissionRouter);
 
 const port = process.env.PORT || 8080;
 
