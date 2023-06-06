@@ -43,7 +43,16 @@ const LoginForm = () => {
       onSubmit={loginFormHandler}
       className={`flex flex-col p-10 justify-start`}
     >
-      {errMessage && <p className={`bg-red-400 px-2 py-2 font-fontY text-white`}>{errMessage}</p>}
+      {
+        success && <p className={`bg-green-500 px-2 py-2 font-fontY text-white`}>
+          Logged In
+        </p>
+      }
+      {errMessage && (
+        <p className={`bg-red-400 px-2 py-2 font-fontY text-white`}>
+          {errMessage}
+        </p>
+      )}
       <label
         className={`font-fontY font-semibold text-xl`}
         htmlFor={`username`}
@@ -57,7 +66,7 @@ const LoginForm = () => {
         ref={userRef}
         value={user}
         autoComplete="off"
-        onChange={e => setUser(e.target.value)}
+        onChange={(e) => setUser(e.target.value)}
       />
 
       <label
@@ -72,7 +81,7 @@ const LoginForm = () => {
         id={`password`}
         ref={passwordRef}
         value={password}
-        onChange={e => setPassword(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
       />
       <input
         type={`submit`}

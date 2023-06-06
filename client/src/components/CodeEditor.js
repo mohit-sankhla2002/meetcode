@@ -6,9 +6,12 @@ import {java} from '@codemirror/lang-java';
 
 
 const CodeEditor = (props) => {
+
+    const [code, setCode] = React.useState('');
+
     // FIXME: This feels a little sketchy, improve this
     const onChange = React.useCallback((value, viewUpdate) => {
-        console.log('value: ', value);
+        setCode(value);
     }, []);
     
     const languageExtensions = (language) => {

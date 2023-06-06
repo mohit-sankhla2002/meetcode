@@ -21,7 +21,7 @@ const createASubmission = async (req,auth,res) => {
     }
 };
 
-const getSubmissionsByUser = (req,next,res) => {
+const getSubmissionsByUser = (req,auth,res) => {
     const id = req.userId;
     const limit = req.query.limit || 20;
     try {

@@ -19,7 +19,6 @@ const login = async (req,res) => {
         }
 
         const token = await jwt.sign({id: user._id}, process.env.JWT_SECRET_STRING, {expiresIn: '1d'});
-
         res.status(200).json({token});
     } catch (e) {
         console.log(e.message);
